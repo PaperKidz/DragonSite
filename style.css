@@ -62,6 +62,7 @@ p {
 	color: white;
 	background-color: crimson;
 }
+
 .logo 
 {
     height: 60px;
@@ -569,6 +570,14 @@ p {
 		font-weight: 500;
 	}
 }
+.note
+{
+	display:flex;
+}
+.cta1
+{
+	display:none;
+}
 /* End Keyframes */
 
 /* Media Query For Tablet */
@@ -576,6 +585,27 @@ p {
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
+	}
+	.note
+	{
+		display: none;
+	}
+	.cta1 {
+		display: inline-block;
+		padding: 10px 30px;
+		color: white;
+		background-color: transparent;
+		border: 2px solid crimson;
+		font-size: 2rem;
+		text-transform: uppercase;
+		letter-spacing: .1rem;
+		margin-top: 30px;
+		transition: .3s ease;
+		transition-property: background-color, color;
+	}
+	.cta1:hover {
+		color: white;
+		background-color: crimson;
 	}
 	h1.section-title {
 		font-size: 6rem;
