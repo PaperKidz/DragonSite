@@ -58,6 +58,14 @@ p {
 	transition: .3s ease;
 	transition-property: background-color, color;
 }
+.link 
+{
+	display: inline-block;
+	color:crimson;
+	background-color: transparent;
+	font-size: 12px;
+
+}
 .cta:hover {
 	color: white;
 	background-color: crimson;
@@ -578,6 +586,11 @@ p {
 {
 	display:none;
 }
+.guide,.link
+{
+	display:none;
+}
+
 /* End Keyframes */
 
 /* Media Query For Tablet */
@@ -589,6 +602,10 @@ p {
 	.note
 	{
 		display: none;
+	}
+	.guide,.link
+	{
+		display: flex;
 	}
 	.cta1 {
 		display: inline-block;
